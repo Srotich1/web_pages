@@ -60,9 +60,7 @@ def ufo():
 def graphs():
     return render_template("graphs.html")
 
-@app.route("/tableau")
-def graphs():
-    return render_template("tableau.html")
+
 # API
 
 @app.route("/api/paranormal/activityType/table/<activity_type>")
